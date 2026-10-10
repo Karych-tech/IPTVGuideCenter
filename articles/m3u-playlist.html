@@ -83,7 +83,8 @@
                         <li><a href="#m3u-vs-xtream-style-login">M3U vs Xtream-style login</a></li>
                         <li><a href="#how-to-load-a-playlist">How to load a playlist</a></li>
                         <li><a href="#keep-your-playlist-private">Keep your playlist private</a></li>
-                        <li><a href="#common-problems">Common problems</a></li>
+                    <li><a href="#treat-a-real-playlist-url-as-a-password">Treat a real playlist URL as a password</a></li>
+                    <li><a href="#common-problems">Common problems</a></li>
                         <li><a href="#faq">Frequently asked questions</a></li>
                     </ol>
                 </nav>
@@ -92,7 +93,10 @@
                 </p>
                 <pre><code>#EXTM3U
 #EXTINF:-1 tvg-id=&quot;news1&quot; group-title=&quot;News&quot;,Example News
-https://example.com/stream/news1.m3u8</code></pre>
+https://your-provider.example/get.php?username=YOUR_USERNAME&amp;password=YOUR_PASSWORD&amp;type=m3u&amp;output=mpegts</code></pre>
+                <p><strong>Example only:</strong> this address uses a reserved placeholder domain and dummy credentials,
+                    so it will not load a real playlist. Your provider may use a URL with a similar format; replace the
+                    placeholder domain, username and password with details issued privately by your provider.</p>
                 <p>The first line identifies the file type. The EXTINF line carries the channel name, group and optional
                     guide ID. The next line is the stream address.</p>
                 <h2 id="m3u-link-vs-file">M3U link vs file</h2>
@@ -131,6 +135,8 @@ https://example.com/stream/news1.m3u8</code></pre>
                 <h2 id="keep-your-playlist-private">Keep your playlist private</h2>
                 <p>Your link often contains your credentials. Do not post it publicly or share it with people you do not
                     trust.</p>
+                <h2 id="treat-a-real-playlist-url-as-a-password">Treat a real playlist URL as a password</h2>
+                <p>Treat a real playlist URL as a password because it may contain account credentials.</p>
                 <h2 id="common-problems">Common problems</h2>
                 <p>A link with a typo, an expired account or a very large list can load slowly. See <a
                         href="/articles/iptv-buffering">the buffering guide</a> and the overview in <a
