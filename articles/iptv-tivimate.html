@@ -1,79 +1,188 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>How to Set Up IPTV on TiviMate | IPTV Guide Center</title>
-<meta name="description" content="Learn how to install TiviMate on Android TV or Firestick, add an M3U or Xtream source, load the programme guide and organise favourites.">
-<meta name="robots" content="index, follow, max-image-preview:large">
-<link rel="canonical" href="https://iptvguidecenter.com/articles/iptv-tivimate">
-<link rel="icon" type="image/webp" href="../assets/images/logo.webp">
-<meta property="og:type" content="article">
-<meta property="og:site_name" content="IPTV Guide Center">
-<meta property="og:title" content="How to Set Up IPTV on TiviMate | IPTV Guide Center">
-<meta property="og:description" content="Learn how to install TiviMate on Android TV or Firestick, add an M3U or Xtream source, load the programme guide and organise favourites.">
-<meta property="og:url" content="https://iptvguidecenter.com/articles/iptv-tivimate">
-<meta property="og:image" content="https://iptvguidecenter.com/assets/images/articles/iptv-tivimate/hero.webp">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="How to Set Up IPTV on TiviMate | IPTV Guide Center">
-<meta name="twitter:description" content="Learn how to install TiviMate on Android TV or Firestick, add an M3U or Xtream source, load the programme guide and organise favourites.">
-<meta name="twitter:image" content="https://iptvguidecenter.com/assets/images/articles/iptv-tivimate/hero.webp">
-<link rel="stylesheet" href="../assets/css/style.css">
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BlogPosting", "headline": "How to Set Up IPTV on TiviMate", "description": "Learn how to install TiviMate on Android TV or Firestick, add an M3U or Xtream source, load the programme guide and organise favourites.", "image": "https://iptvguidecenter.com/assets/images/articles/iptv-tivimate/hero.webp", "datePublished": "2026-09-15", "dateModified": "2026-10-03", "author": {"@type": "Organization", "name": "IPTV Guide Center", "url": "https://iptvguidecenter.com/"}, "publisher": {"@type": "Organization", "name": "IPTV Guide Center", "url": "https://iptvguidecenter.com/", "logo": {"@type": "ImageObject", "url": "https://iptvguidecenter.com/assets/images/logo.webp"}}, "mainEntityOfPage": {"@type": "WebPage", "@id": "https://iptvguidecenter.com/articles/iptv-tivimate"}}</script>
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://iptvguidecenter.com/"}, {"@type": "ListItem", "position": 2, "name": "Articles", "item": "https://iptvguidecenter.com/articles"}, {"@type": "ListItem", "position": 3, "name": "IPTV Players", "item": "https://iptvguidecenter.com/categories/iptv-players"}, {"@type": "ListItem", "position": 4, "name": "How to Set Up IPTV on TiviMate", "item": "https://iptvguidecenter.com/articles/iptv-tivimate"}]}</script>
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Does TiviMate work on iPhone or Smart TV brands like Samsung?", "acceptedAnswer": {"@type": "Answer", "text": "It is designed for Android-based devices, so it is not available on Samsung or LG TVs."}}, {"@type": "Question", "name": "Why is my guide empty?", "acceptedAnswer": {"@type": "Answer", "text": "The source may not include guide data or you may need to refresh or enter an EPG link."}}, {"@type": "Question", "name": "Can I add more than one playlist?", "acceptedAnswer": {"@type": "Answer", "text": "Multiple playlists are part of the premium features."}}]}</script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>How to Set Up IPTV on TiviMate | IPTV Guide Center</title>
+    <meta name="description"
+        content="Learn how to install TiviMate on Android TV or Firestick, add an M3U or Xtream source, load the programme guide and organise favourites.">
+    <meta name="robots" content="index, follow, max-image-preview:large">
+    <link rel="canonical" href="https://iptvguidecenter.com/articles/iptv-tivimate">
+    <link rel="icon" type="image/webp" href="../assets/images/logo.webp">
+    <meta property="og:type" content="article">
+    <meta property="og:site_name" content="IPTV Guide Center">
+    <meta property="og:title" content="How to Set Up IPTV on TiviMate | IPTV Guide Center">
+    <meta property="og:description"
+        content="Learn how to install TiviMate on Android TV or Firestick, add an M3U or Xtream source, load the programme guide and organise favourites.">
+    <meta property="og:url" content="https://iptvguidecenter.com/articles/iptv-tivimate">
+    <meta property="og:image" content="https://iptvguidecenter.com/assets/images/articles/iptv-tivimate/hero.webp">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="How to Set Up IPTV on TiviMate | IPTV Guide Center">
+    <meta name="twitter:description"
+        content="Learn how to install TiviMate on Android TV or Firestick, add an M3U or Xtream source, load the programme guide and organise favourites.">
+    <meta name="twitter:image" content="https://iptvguidecenter.com/assets/images/articles/iptv-tivimate/hero.webp">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <script
+        type="application/ld+json">{"@context": "https://schema.org", "@type": "BlogPosting", "headline": "How to Set Up IPTV on TiviMate", "description": "Learn how to install TiviMate on Android TV or Firestick, add an M3U or Xtream source, load the programme guide and organise favourites.", "image": "https://iptvguidecenter.com/assets/images/articles/iptv-tivimate/hero.webp", "datePublished": "2026-09-15", "dateModified": "2026-10-03", "author": {"@type": "Organization", "name": "IPTV Guide Center", "url": "https://iptvguidecenter.com/"}, "publisher": {"@type": "Organization", "name": "IPTV Guide Center", "url": "https://iptvguidecenter.com/", "logo": {"@type": "ImageObject", "url": "https://iptvguidecenter.com/assets/images/logo.webp"}}, "mainEntityOfPage": {"@type": "WebPage", "@id": "https://iptvguidecenter.com/articles/iptv-tivimate"}}</script>
+    <script
+        type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://iptvguidecenter.com/"}, {"@type": "ListItem", "position": 2, "name": "Articles", "item": "https://iptvguidecenter.com/articles"}, {"@type": "ListItem", "position": 3, "name": "IPTV Players", "item": "https://iptvguidecenter.com/categories/iptv-players"}, {"@type": "ListItem", "position": 4, "name": "How to Set Up IPTV on TiviMate", "item": "https://iptvguidecenter.com/articles/iptv-tivimate"}]}</script>
+    <script
+        type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Does TiviMate work on iPhone or Smart TV brands like Samsung?", "acceptedAnswer": {"@type": "Answer", "text": "It is designed for Android-based devices, so it is not available on Samsung or LG TVs."}}, {"@type": "Question", "name": "Why is my guide empty?", "acceptedAnswer": {"@type": "Answer", "text": "The source may not include guide data or you may need to refresh or enter an EPG link."}}, {"@type": "Question", "name": "Can I add more than one playlist?", "acceptedAnswer": {"@type": "Answer", "text": "Multiple playlists are part of the premium features."}}]}</script>
 </head>
+
 <body data-base="../">
-<a class="skip" href="#main">Skip to main content</a>
-<header class="site-header">
-<div class="wrap bar">
-<a class="brand" href="/" aria-label="IPTV Guide Center home"><img src="../assets/images/logo.webp" alt="" width="36" height="36"><span>IPTV Guide Center</span></a>
-<button class="menu-btn" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu"><span></span><span></span><span></span></button>
-<nav id="site-nav" class="nav" aria-label="Main"><ul><li><a href="/">Home</a></li><li><a href="/articles">Articles</a></li><li><a href="/categories/iptv-basics">IPTV Basics</a></li><li><a href="/categories/setup-guides">Setup Guides</a></li><li><a href="/categories/iptv-players">IPTV Players</a></li><li><a href="/categories/troubleshooting">Troubleshooting</a></li><li><a href="/articles#search">Search</a></li></ul></nav>
-</div>
-</header>
-<main id="main">
-<div class="wrap article-wrap">
-<nav class="crumbs" aria-label="Breadcrumb"><ol><li><a href="/">Home</a></li><li><a href="/articles">Articles</a></li><li><a href="/categories/iptv-players">IPTV Players</a></li><li aria-current="page">How to Set Up IPTV on TiviMate</li></ol></nav>
-<article class="article">
-<header>
-<a class="tag" href="/categories/iptv-players">IPTV Players</a>
-<h1>How to Set Up IPTV on TiviMate</h1>
-<p class="meta">Published <time datetime="2026-09-15">2026-09-15</time> &middot; Updated <time datetime="2026-10-03">2026-10-03</time></p>
-</header>
-<figure class="hero-img"><img src="../assets/images/articles/iptv-tivimate/hero.webp" alt="TiviMate channel list and programme guide on a television" width="1200" height="630" fetchpriority="high"></figure>
-<p class="lead">TiviMate is a player built around a clean channel list and programme guide. It runs on Android TV, Google TV and Fire OS devices. Here is how to set it up from scratch.</p>
-<nav class="toc" aria-label="Table of contents"><h2>In this article</h2><ol><li><a href="#requirements">Requirements</a></li><li><a href="#install-and-add-a-playlist">Install and add a playlist</a></li><li><a href="#organise-your-channels">Organise your channels</a></li><li><a href="#free-and-premium-features">Free and premium features</a></li><li><a href="#faq">Frequently asked questions</a></li></ol></nav>
-<h2 id="requirements">Requirements</h2>
-<p>You need an Android-based device (see <a href="/articles/iptv-android-tv">Android TV setup</a> or <a href="/articles/iptv-firestick">Firestick setup</a>) and a playlist link or Xtream-style login from your provider.</p>
-<figure><img src="../assets/images/articles/iptv-tivimate/image-1.webp" alt="TiviMate add playlist screen offering M3U playlist and Xtream codes options" width="1000" height="560" loading="lazy"><figcaption>Choose how you want to add your source.</figcaption></figure>
-<h2 id="install-and-add-a-playlist">Install and add a playlist</h2>
-<ol><li>Install TiviMate from the Google Play Store, or from the Amazon Appstore or the developer&#x27;s official source on Fire devices.</li><li>Open the app and select Add Playlist.</li><li>Choose M3U playlist or Xtream codes.</li><li>Enter the link or login details and confirm.</li><li>Wait while channels and the guide data import.</li></ol>
-<h3>Playlist or Xtream?</h3>
-<p>A playlist is a single link. Xtream details load channels, guide and on-demand more consistently with some providers. The <a href="/articles/m3u-playlist">M3U guide</a> explains the file format.</p>
-<figure><img src="../assets/images/articles/iptv-tivimate/image-2.webp" alt="TiviMate playlist import screen with channels and guide data loading" width="1000" height="560" loading="lazy"><figcaption>Channels and guide data import after you add a playlist.</figcaption></figure>
-<h2 id="organise-your-channels">Organise your channels</h2>
-<ul><li>Use groups to hide categories you never watch.</li><li>Add favourites for quick access.</li><li>Reorder channels in settings.</li></ul>
-<figure><img src="../assets/images/articles/iptv-tivimate/image-3.webp" alt="TiviMate channel groups settings with some groups hidden" width="1000" height="560" loading="lazy"><figcaption>Hide groups you never watch to keep the list short.</figcaption></figure>
-<h2 id="free-and-premium-features">Free and premium features</h2>
-<p>The basic version is usable, while extras such as multiple playlists and recording are part of the paid tier. Check the current feature list before paying.</p>
-<div class="tip"><strong>Tip:</strong> Refresh the guide data manually if programme listings look out of date.</div>
-<p>If streams freeze, read <a href="/articles/iptv-buffering">how to fix buffering</a>. A beginner-friendly alternative is <a href="/articles/iptv-smarters">IPTV Smarters</a>.</p>
-<section aria-labelledby="faq"><h2 id="faq">Frequently asked questions</h2><h3>Does TiviMate work on iPhone or Smart TV brands like Samsung?</h3><p>It is designed for Android-based devices, so it is not available on Samsung or LG TVs.</p><h3>Why is my guide empty?</h3><p>The source may not include guide data or you may need to refresh or enter an EPG link.</p><h3>Can I add more than one playlist?</h3><p>Multiple playlists are part of the premium features.</p></section>
-<aside class="cta" aria-label="Related resource"><h2>A helpful resource</h2><p>If you want to see how a service presents IPTV access and device support, <a href="https://www.8kiptv4u.com/pages/how-to-install-iptv/tivi-mate" rel="noopener">Read 8K IPTV 4U information about player compatibility</a>. Read it alongside this guide and compare it with your own needs.</p></aside>
-<aside class="related" aria-labelledby="rel-h"><h2 id="rel-h">Related articles</h2><ul class="rel-fallback"><li><a href="/articles/iptv-android-tv">How to Set Up IPTV on Android TV</a></li><li><a href="/articles/iptv-smarters">How to Use IPTV Smarters: Beginner&#x27;s Guide</a></li><li><a href="/articles/iptv-buffering">How to Fix IPTV Buffering: 10 Solutions</a></li><li><a href="/articles/m3u-playlist">What Is an M3U Playlist? Complete Beginner&#x27;s Guide</a></li></ul><div class="grid" data-related data-slug="iptv-tivimate"></div></aside>
-<aside class="author"><strong>About this guide</strong><p>Written by the IPTV Guide Center editorial team to explain IPTV topics in plain language. Content is for general information and is reviewed and updated from time to time. <a href="/about">Learn more about this site</a>.</p></aside>
-</article>
-</div>
-</main>
-<footer class="site-footer">
-<div class="wrap foot">
-<div><strong>IPTV Guide Center</strong><p>Independent educational information about IPTV, streaming devices, players and troubleshooting. Links to <a href="https://www.8kiptv4u.com/" rel="noopener">8K IPTV 4U</a> appear where relevant. We are not affiliated with device makers, player developers or broadcasters.</p></div>
-<nav aria-label="Footer"><ul><li><a href="/about">About</a></li><li><a href="/contact">Contact</a></li><li><a href="/privacy-policy">Privacy Policy</a></li><li><a href="/terms">Terms</a></li></ul></nav>
-</div>
-<p class="wrap copy">&copy; 2026 IPTV Guide Center</p>
-</footer>
-<script src="../assets/js/articles-data.js"></script>
-<script src="../assets/js/main.js"></script>
+    <a class="skip" href="#main">Skip to main content</a>
+    <header class="site-header">
+        <div class="wrap bar">
+            <a class="brand" href="/" aria-label="IPTV Guide Center home"><img src="../assets/images/logo.webp" alt=""
+                    width="36" height="36"><span>IPTV Guide Center</span></a>
+            <button class="menu-btn" aria-expanded="false" aria-controls="site-nav"
+                aria-label="Open menu"><span></span><span></span><span></span></button>
+            <nav id="site-nav" class="nav" aria-label="Main">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/articles">Articles</a></li>
+                    <li><a href="/categories/iptv-basics">IPTV Basics</a></li>
+                    <li><a href="/categories/setup-guides">Setup Guides</a></li>
+                    <li><a href="/categories/iptv-players">IPTV Players</a></li>
+                    <li><a href="/categories/troubleshooting">Troubleshooting</a></li>
+                    <li><a href="/articles#search">Search</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main id="main">
+        <div class="wrap article-wrap">
+            <nav class="crumbs" aria-label="Breadcrumb">
+                <ol>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/articles">Articles</a></li>
+                    <li><a href="/categories/iptv-players">IPTV Players</a></li>
+                    <li aria-current="page">How to Set Up IPTV on TiviMate</li>
+                </ol>
+            </nav>
+            <article class="article">
+                <header>
+                    <a class="tag" href="/categories/iptv-players">IPTV Players</a>
+                    <h1>How to Set Up IPTV on TiviMate</h1>
+                    <p class="meta">Published <time datetime="2026-09-15">2026-09-15</time> &middot; Updated <time
+                            datetime="2026-10-03">2026-10-03</time></p>
+                </header>
+                <figure class="hero-img"><img src="../assets/images/articles/iptv-tivimate/hero.webp"
+                        alt="TiviMate channel list and programme guide on a television" width="1200" height="630"
+                        fetchpriority="high"></figure>
+                <p class="lead">TiviMate is a player built around a clean channel list and programme guide. It runs on
+                    Android TV, Google TV and Fire OS devices. Here is how to set it up from scratch.</p>
+                <nav class="toc" aria-label="Table of contents">
+                    <h2>In this article</h2>
+                    <ol>
+                        <li><a href="#requirements">Requirements</a></li>
+                        <li><a href="#install-and-add-a-playlist">Install and add a playlist</a></li>
+                        <li><a href="#organise-your-channels">Organise your channels</a></li>
+                        <li><a href="#free-and-premium-features">Free and premium features</a></li>
+                        <li><a href="#faq">Frequently asked questions</a></li>
+                    </ol>
+                </nav>
+                <h2 id="requirements">Requirements</h2>
+                <p>You need an Android-based device (see <a href="/articles/iptv-android-tv">Android TV setup</a> or <a
+                        href="/articles/iptv-firestick">Firestick setup</a>) and a playlist link or Xtream-style login
+                    from your provider.</p>
+                <figure><img src="../assets/images/articles/iptv-tivimate/image-1.webp"
+                        alt="TiviMate add playlist screen offering M3U playlist and Xtream codes options" width="1000"
+                        height="560" loading="lazy">
+                    <figcaption>Choose how you want to add your source.</figcaption>
+                </figure>
+                <h2 id="install-and-add-a-playlist">Install and add a playlist</h2>
+                <ol>
+                    <li>Install TiviMate from the Google Play Store, or from the Amazon Appstore or the developer&#x27;s
+                        official source on Fire devices.</li>
+                    <li>Open the app and select Add Playlist.</li>
+                    <li>Choose M3U playlist or Xtream codes.</li>
+                    <li>Enter the link or login details and confirm.</li>
+                    <li>Wait while channels and the guide data import.</li>
+                </ol>
+                <h3>Playlist or Xtream?</h3>
+                <p>A playlist is a single link. Xtream details load channels, guide and on-demand more consistently with
+                    some providers. The <a href="/articles/m3u-playlist">M3U guide</a> explains the file format.</p>
+                <figure><img src="../assets/images/articles/iptv-tivimate/image-2.webp"
+                        alt="TiviMate playlist import screen with channels and guide data loading" width="1000"
+                        height="560" loading="lazy">
+                    <figcaption>Channels and guide data import after you add a playlist.</figcaption>
+                </figure>
+                <h2 id="organise-your-channels">Organise your channels</h2>
+                <ul>
+                    <li>Use groups to hide categories you never watch.</li>
+                    <li>Add favourites for quick access.</li>
+                    <li>Reorder channels in settings.</li>
+                </ul>
+                <figure><img src="../assets/images/articles/iptv-tivimate/image-3.webp"
+                        alt="TiviMate channel groups settings with some groups hidden" width="1000" height="560"
+                        loading="lazy">
+                    <figcaption>Hide groups you never watch to keep the list short.</figcaption>
+                </figure>
+                <h2 id="free-and-premium-features">Free and premium features</h2>
+                <p>The basic version is usable, while extras such as multiple playlists and recording are part of the
+                    paid tier. Check the current feature list before paying.</p>
+                <div class="tip"><strong>Tip:</strong> Refresh the guide data manually if programme listings look out of
+                    date.</div>
+                <p>If streams freeze, read <a href="/articles/iptv-buffering">how to fix buffering</a>. A
+                    beginner-friendly alternative is <a href="/articles/iptv-smarters">IPTV Smarters</a>.</p>
+                <section aria-labelledby="faq">
+                    <h2 id="faq">Frequently asked questions</h2>
+                    <h3>Does TiviMate work on iPhone or Smart TV brands like Samsung?</h3>
+                    <p>It is designed for Android-based devices, so it is not available on Samsung or LG TVs.</p>
+                    <h3>Why is my guide empty?</h3>
+                    <p>The source may not include guide data or you may need to refresh or enter an EPG link.</p>
+                    <h3>Can I add more than one playlist?</h3>
+                    <p>Multiple playlists are part of the premium features.</p>
+                </section>
+                <aside class="cta" aria-label="Related resource">
+                    <h2>A helpful resource</h2>
+                    <p>If you want to see how a service presents IPTV access and device support, <a
+                            href="https://www.8kiptv4u.com/pages/how-to-install-iptv/tivi-mate" rel="noopener">Read 8K
+                            IPTV 4U information about player compatibility</a>. Read it alongside this guide and compare
+                        it with your own needs.</p>
+                </aside>
+                <aside class="related" aria-labelledby="rel-h">
+                    <h2 id="rel-h">Related articles</h2>
+                    <ul class="rel-fallback">
+                        <li><a href="/articles/iptv-android-tv">How to Set Up IPTV on Android TV</a></li>
+                        <li><a href="/articles/iptv-smarters">How to Use IPTV Smarters: Beginner&#x27;s Guide</a></li>
+                        <li><a href="/articles/iptv-buffering">How to Fix IPTV Buffering: 10 Solutions</a></li>
+                        <li><a href="/articles/m3u-playlist">What Is an M3U Playlist? Complete Beginner&#x27;s Guide</a>
+                        </li>
+                    </ul>
+                    <div class="grid" data-related data-slug="iptv-tivimate"></div>
+                </aside>
+                <aside class="author"><strong>About this guide</strong>
+                    <p>Written by the IPTV Guide Center editorial team to explain IPTV topics in plain language. Content
+                        is for general information and is reviewed and updated from time to time. <a href="/about">Learn
+                            more about this site</a>.</p>
+                </aside>
+            </article>
+        </div>
+    </main>
+    <footer class="site-footer">
+        <div class="wrap foot">
+            <div><strong>IPTV Guide Center</strong>
+                <p>Independent educational information about IPTV, streaming devices, players and troubleshooting. Links
+                    to <a href="https://www.8kiptv4u.com/" rel="noopener">8K IPTV 4U</a> appear where relevant. We are
+                    not affiliated with device makers, player developers or broadcasters.</p>
+            </div>
+            <nav aria-label="Footer">
+                <ul>
+                    <li><a href="/about">About</a></li>
+                    <li><a href="/contact">Contact</a></li>
+                    <li><a href="/privacy-policy">Privacy Policy</a></li>
+                    <li><a href="/terms">Terms</a></li>
+                </ul>
+            </nav>
+        </div>
+        <p class="wrap copy">&copy; 2026 IPTV Guide Center</p>
+    </footer>
+    <script src="../assets/js/articles-data.js"></script>
+    <script src="../assets/js/main.js"></script>
 </body>
+
 </html>
